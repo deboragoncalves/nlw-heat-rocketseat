@@ -1,2 +1,2 @@
-# nlw6-head-rocketseat
+# nlw-heat-rocketseat
 NLW Heat Rocketseat. In development.
