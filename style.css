@@ -34,7 +34,7 @@ a {
     margin: 11.5rem auto 0;
 }
 
-.profile {
+#userPhoto {
     width: 11.58rem;
     height: 11.57rem;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -48,7 +48,7 @@ a {
     left: -7px;
 }
 
-.name {
+#name {
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     color: var(--gray);
@@ -62,13 +62,13 @@ a {
     margin-top: 10px;
 }
 
-.github span {
+#userGithub {
     font-family: 'Roboto', sans-serif;
     color: var(--gray);
     font-size: 1rem;
 }
 
-.description {
+#description {
     font-family: 'Roboto', sans-serif;
     color: var(--gray);
     font-size: 0.86rem;
