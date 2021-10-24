@@ -6,11 +6,13 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
-    background: url(images/background.svg);
-    width: 23.44rem;
+    background: url(images/background-mobile.svg) no-repeat center/cover;
+    width: 100%;
+    min-height: 812px;
     height: 100%;
 
     --gray: #E1E1E6;
@@ -37,7 +39,7 @@ a {
 #userPhoto {
     width: 11.58rem;
     height: 11.57rem;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    border-radius: 50%;
 }
 
 .build {
@@ -45,12 +47,11 @@ a {
     height: 5rem;
     position: absolute;
     z-index: 1;
-    left: -7px;
+    left: -17px;
 }
 
 #name {
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
     color: var(--gray);
     font-size: 1.5rem;
     margin-top: 1.5rem;
@@ -63,13 +64,11 @@ a {
 }
 
 #userGithub {
-    font-family: 'Roboto', sans-serif;
     color: var(--gray);
     font-size: 1rem;
 }
 
 #description {
-    font-family: 'Roboto', sans-serif;
     color: var(--gray);
     font-size: 0.86rem;
     margin-top: 32px;
@@ -89,3 +88,27 @@ ul {
 
 /* 1rem = 16px
 Margin: top left/right bottom */
+
+@media (min-width: 760px) {
+    main {
+        background: url(images/background-web.jpg);
+
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .container {
+        background: url(images/background-mobile.svg) no-repeat center/cover;
+
+        width: 22.38rem;
+        height: 40rem;
+    }
+
+    #description {
+        font-size: 1.2rem;
+    }
+}

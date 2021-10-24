@@ -47,5 +47,3 @@ getInformationsGithub = () => {
 }
 
 getInformationsGithub();
-
-// TODO: corrigir background
