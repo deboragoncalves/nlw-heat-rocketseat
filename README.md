@@ -1,2 +1,2 @@
 # nlw-heat-rocketseat
-NLW Heat Rocketseat. In development.
+NLW Heat Rocketseat 2021.
